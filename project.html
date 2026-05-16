@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JCI Çankaya - Geleceğin Liderlerini Yetiştiriyoruz</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+
+
+        
+</head>
+<body>
+
+    <header style="height: 100px; position: sticky; border-bottom: 1px solid #f1f5f9; background: #fff; z-index: 1000;">
+        <div class="container nav-container" style="display: grid; grid-template-columns: 200px 1fr auto; align-items: center; height: 100%; gap: 30px;">
+            <a href="index.html" class="logo-area" style="position: relative; height: 100%; text-decoration: none;">
+                <img src="assets/images/JCI-Cankaya-1024x1024.png" 
+                     alt="JCI Çankaya Logo">
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Ana Sayfa</a>
+                <a href="about.html">Hakkımızda</a>
+                <a href="project.html" class="active">Projeler</a>
+                <a href="event.html">Etkinlikler</a>
+                <a href="team.html">Yönetim Kurulu</a>
+                <a href="gallery.html">Galeri</a>
+                <a href="contact.html">İletişim</a>
+            </nav>
+    
+            <div class="nav-actions">
+                <a href="contact.html"><button class="btnheader btn-navy">Bize Katıl</button></a>
+            </div>
+    
+            <div class="mobile-toggle" id="mobileToggle">
+                ☰
+            </div>
+        </div>
+        <div class="mobile-menu-overlay" id="mobileOverlay"></div>
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-menu-top">
+                <a href="index.html"><img src="assets/images/JCI-Cankaya-1024x1024.png" alt="JCI Logo"></a>
+                <button class="mobile-close" id="mobileClose">
+                    ✕
+                </button>
+            </div>
+            <nav class="mobile-nav-links">
+                <a href="index.html">Ana Sayfa</a>
+                <a href="about.html">Hakkımızda</a>
+                <a href="project.html" class="active">Projeler</a>
+                <a href="event.html">Etkinlikler</a>
+                <a href="team.html">Yönetim Kurulu</a>
+                <a href="gallery.html">Galeri</a>
+                <a href="contact.html">İletişim</a>
+            </nav>
+            <a href="contact.html"><button class="mobile-join-btn">
+                Bize Katıl
+            </button></a>
+        </div>
+    </header>
+
+
+    <section class="about-detail-hero reveal">
+        <div class="container">
+            <h1>Projelerimiz</h1>
+            <p>JCI Çankaya olarak dört gelişim alanımız doğrultusunda yürüttüğümüz projeler</p>
+        </div>
+        <div class="about-ripples">
+            <img src="assets/images/Ripples-scaled-1.png" alt="Ripples">
+        </div>
+    </section>
+    
+    <section class="popular-articles reveal">
+        <div class="articles-container">
+            <h1 class="articles-title">Amiral Gemisi Projeler</h1>
+    
+            <div class="articles-grid">
+                <div class="article-card">
+                    <div class="article-img">
+                        <span class="project-tag tag-business">İş Dünyası</span>
+                        <img src="https://picsum.photos/800/500?random=10">
+                    </div>
+                    <div class="article-body">
+                        <h3 class="article-h">JCNetwork Business Circle</h3>
+                        <p>Üyeler ve paydaşlar arasında ticari bir ekosistem kurarak Ankara ve Türkiye genelinde nitelikli network ve somut ticaret hacmi yaratır.</p>
+                        <div class="project-hashtags">
+                            <span>#Bussines</span> <span>#Network</span> <span>#Summit</span>
+                        </div>
+                        <a href="project-detail.html" class="read-more">Detayları Gör <i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                </div>
+    
+                <div class="article-card">
+                    <div class="article-img">
+                        <span class="project-tag tag-individual">Bireysel Gelişim</span>
+                        <img src="https://picsum.photos/800/500?random=11">
+                    </div>
+                    <div class="article-body">
+                        <h3 class="article-h">Empower Leaders Academy</h3>
+                        <p>Aday üye akademisi, direktör akademisi ve aylık gelişim toplantılarıyla üyelerin sürekli gelişimini destekleyen program.</p>
+                        <div class="project-hashtags">
+                            <span>#Academy</span> <span>#Leadership</span> <span>#Training</span>
+                        </div>
+                        <a href="project-detail.html" class="read-more">Detayları Gör <i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                </div>
+    
+                <div class="article-card">
+                    <div class="article-img">
+                        <span class="project-tag tag-community">Toplumsal Gelişim</span>
+                        <img src="https://picsum.photos/800/500?random=12">
+                    </div>
+                    <div class="article-body">
+                        <h3 class="article-h">Anadolu'nun Çocukları Başkentte</h3>
+                        <p>Anadolu'nun farklı illerinden çocukları Ankara'da ağırlayarak onlara eğitim, kültür ve sosyal deneyimler sunan toplumsal sorumluluk projesi.</p>
+                        <div class="project-hashtags">
+                            <span>#Social Impact</span> <span>#Children</span> <span>#Education</span>
+                        </div>
+                        <a href="project-detail.html" class="read-more">Detayları Gör <i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                </div>
+    
+                <div class="article-card">
+                    <div class="article-img">
+                        <span class="project-tag tag-international">Uluslararası Fırsatlar</span>
+                        <img src="https://picsum.photos/800/500?random=13">
+                    </div>
+                    <div class="article-body">
+                        <h3 class="article-h">JCI Exchange</h3>
+                        <p>3 ülke (Türkiye, Tunus, Fransa) arasında uluslararası değişim, eğitim ve kültürel iş birliği programı.</p>
+                        <div class="project-hashtags">
+                            <span>#Exchange</span> <span>#International</span> <span>#Culture</span>
+                        </div>
+                        <a href="project-detail.html" class="read-more">Detayları Gör <i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+ 
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Marka ve Sosyal Medya -->
+                <div class="footer-brand">
+                    <img src="assets/images/JCI-Cankaya-1024x1024.png" alt="JCI Çankaya">
+                    <p>JCI Çankaya, gençleri geliştiren, onlara liderlik fırsatları sunan ve topluma olumlu katkı sağlayan global bir topluluğun parçasıdır.</p>
+                    <div class="social-links" style="margin-top: 10px;">
+                        <a href="https://www.instagram.com/jcicankaya/"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/jcicankaya/"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.youtube.com/@JCICankaya"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+    
+                <!-- Sütun 1: Kurumsal -->
+                <div class="footer-col">
+                    <h4>Kurumsal</h4>
+                    <ul>
+                        <li><a href="about.html">Hakkımızda</a></li>
+                        <li><a href="team.html">Yönetim Kurulu</a></li>
+                        <li><a href="contact.html">İletişim</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Sütun 2: Hızlı Erişim -->
+                <div class="footer-col">
+                    <h4>Hızlı Erişim</h4>
+                    <ul>
+                        <li><a href="project.html">Projeler</a></li>
+                        <li><a href="event.html">Etkinlikler</a></li>
+                        <li><a href="gallery.html">Galeri</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Sütun 3: JCI Network -->
+                <div class="footer-col">
+                    <h4>JCI Network</h4>
+                    <ul>
+                        <li><a href="https://jci.cc/" target="_blank">JCI International</a></li>
+                        <li><a href="https://jciturkiye.org/" target="_blank">JCI Türkiye</a></li>
+                        <li><a href="https://jcieurope.cc/" target="_blank">JCI Europe</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="footer-bottom">
+                <p>© 2026 JCI Çankaya. Tüm hakları saklıdır.</p>
+                <div class="footer-bottom-links">
+                    <a href="https://jciturkiye.org/wp-content/uploads/2024/05/jci-turkey-tuzuk-yeni-2.pdf" target="_blank">Dernek Tüzüğü</a>
+                    <a href="https://img1.wsimg.com/blobby/go/af3e46a1-828b-4f68-b863-e31cb10c7928/downloads/08d277f2-7892-47fa-85df-276d497ad77c/JCI-KVKK%20Aydinlatma%20Metni%2023012024.pdf?ver=1776180076676" target="_blank">KVK Aydınlatma Metni</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

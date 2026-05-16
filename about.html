@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JCI Çankaya - Geleceğin Liderlerini Yetiştiriyoruz</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+
+
+        
+</head>
+<body>
+
+    <header style="height: 100px; position: sticky; border-bottom: 1px solid #f1f5f9; background: #fff; z-index: 1000;">
+        <div class="container nav-container" style="display: grid; grid-template-columns: 200px 1fr auto; align-items: center; height: 100%; gap: 30px;">
+            <a href="index.html" class="logo-area" style="position: relative; height: 100%; text-decoration: none;">
+                <img src="assets/images/JCI-Cankaya-1024x1024.png" 
+                     alt="JCI Çankaya Logo">
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Ana Sayfa</a>
+                <a href="about.html" class="active">Hakkımızda</a>
+                <a href="project.html">Projeler</a>
+                <a href="event.html">Etkinlikler</a>
+                <a href="team.html">Yönetim Kurulu</a>
+                <a href="gallery.html">Galeri</a>
+                <a href="contact.html">İletişim</a>
+            </nav>
+    
+            <div class="nav-actions">
+                <a href="contact.html"><button class="btnheader btn-navy">Bize Katıl</button></a>
+            </div>
+    
+            <div class="mobile-toggle" id="mobileToggle">
+                ☰
+            </div>
+        </div>
+        <div class="mobile-menu-overlay" id="mobileOverlay"></div>
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-menu-top">
+                <a href="index.html"><img src="assets/images/JCI-Cankaya-1024x1024.png" alt="JCI Logo"></a>
+                <button class="mobile-close" id="mobileClose">
+                    ✕
+                </button>
+            </div>
+            <nav class="mobile-nav-links">
+                <a href="index.html">Ana Sayfa</a>
+                <a href="about.html" class="active">Hakkımızda</a>
+                <a href="project.html">Projeler</a>
+                <a href="event.html">Etkinlikler</a>
+                <a href="team.html">Yönetim Kurulu</a>
+                <a href="gallery.html">Galeri</a>
+                <a href="contact.html">İletişim</a>
+            </nav>
+            <a href="contact.html"><button class="mobile-join-btn">
+                Bize Katıl
+            </button></a>
+        </div>
+    </header>
+    
+
+    <!-- Banner Alanı -->
+    <section class="about-detail-hero reveal">
+        <div class="container">
+            <h1>Hakkımızda</h1>
+            <p>18-40 yaş arası genç profesyonellerin liderlik becerilerini geliştirerek toplumsal pozitif değişim yaratmayı hedefleyen dinamik bir yerel organizasyonuz.</p>
+        </div>
+        <div class="about-ripples">
+            <img src="assets/images/Ripples-scaled-1.png" alt="Ripples">
+        </div>
+    </section>
+
+    <!-- JCI Nedir Bölümü -->
+    <section class="about-info-section section-padding reveal">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-text">
+                    <span class="badge-blue">JCI Nedir?</span>
+                    <h2>Junior Chamber International</h2>
+                    <p>JCI (Junior Chamber International), dünyanın en büyük genç liderler ve girişimciler ağlarından biridir. 100'den fazla ülkede 200.000'i aşkın üye ile faaliyet gösterir.</p>
+                    <p>1915'ten bu yana genç insanların liderlik becerilerini geliştirerek toplumlarında pozitif değişim yaratmalarına olanak sağlar.</p>
+                    <p>JCI'ın dört temel gelişim alanı vardır: <strong>İş Dünyası, Bireysel Gelişim, Toplumsal Gelişim</strong> ve <strong>Uluslararası Fırsatlar.</strong></p>
+                </div>
+                <!-- Stat Kartı (Gradient Arka Plan) -->
+                <div class="info-stat-card jci-gradient-card">
+                    <div class="stat-inner-grid">
+                        <div class="s-item"><h3 class="text-white">100+</h3><p class="text-white">Ülke</p></div>
+                        <div class="s-item"><h3 class="text-white">200K+</h3><p class="text-white">Üye</p></div>
+                        <div class="s-item"><h3 class="text-white">110</h3><p class="text-white">Yıllık Tarih</p></div>
+                        <div class="s-item"><h3 class="text-white">5000+</h3><p class="text-white">Yerel Organizasyon</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hikayemiz Bölümü (Görsel Kaldırıldı ve Ortalandı) -->
+    <section class="about-info-section bg-light section-padding reveal">
+        <div class="container">
+            <div class="info-text-centered">
+                <span class="badge-yellow">Hikayemiz</span>
+                <h2>JCI Çankaya</h2>
+                <div class="centered-content">
+                    <p>JCI Çankaya, Ankara'nın kalbinde faaliyet gösteren dinamik bir yerel organizasyondur. Uluslararası görünürlüğünü artırmak, üye kalitesini yükseltmek ve projelerinin standartlarını yukarı çekmek temel odağımızdır.</p>
+                    <p>13 yıllık tecrübemizle Camp&Learn, JCNetwork Business Circle, CYE ve Anadolu'nun Çocukları Başkentte gibi projelerle hem yerel hem uluslararası alanda etki yaratıyoruz.</p>
+                    <p>2026 döneminde <strong>"Empower Leaders"</strong> vizyonuyla <strong>"Güçlendir, Harekete Geç, Etki Yarat"</strong> stratejisiyle bireysel potansiyeli toplumsal ve ticari performansa dönüştürüyoruz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4'lü Kart Yapısı -->
+    <section class="features container reveal" style="margin-top: 40px;">
+        <h1 class="section-title">Lead. Connect. Evolve.</h1>
+        <p>JCI Global'in 2026 Plan of Action teması ve Vision 2040 hedefleri doğrultusunda hareket ediyoruz.</p>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="bi-recycle feature-icon icon-business"></i>
+                <h3 class="title-business">Sustainability First</h3>
+                <p>Sürdürülebilirlik odaklı projeler ve SDG hedefleriyle uyumlu çalışma.</p>
+            </div>
+    
+            <div class="feature-card">
+                <i class="bi bi-flag feature-icon icon-individual"></i>
+                <h3 class="title-individual">Building Global Leadership</h3>
+                <p>Genç liderlerin küresel ölçekte yetkinliklerini geliştirme.</p>
+            </div>
+    
+            <div class="feature-card">
+                <i class="bi bi-briefcase feature-icon icon-community"></i>
+                <h3 class="title-community">Business Across the World</h3>
+                <p>Uluslararasi iş birlikleri ve ticari ekosistem oluşturma.</p>
+            </div>
+            <div class="feature-card">
+                <i class="bi bi-people feature-icon icon-international"></i>
+                <h3 class="title-international">Connecting Lives and Cultures</h3>
+                <p>Kültürel değişim ve yaşam alanlarını birleştiren projeler.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section reveal" style="margin-bottom: 120px;">
+        <div class="container stats-container">
+            <div class="stats-brand-wrapper">
+                <div class="stats-brand-logo">
+                    <img src="assets/icons/favicon.svg" alt="JCI Çankaya Logo">
+                </div>
+                <div class="stats-brand-text">
+                    <p>JCI Çankaya olarak bireysel potansiyeli toplumsal ve ticari performansa dönüştürüyoruz.</p>
+                </div>
+            </div>
+            <div class="stats-items-wrapper">
+                <div class="stat-item">
+                    <i class="bi bi-clock stat-icon"></i>
+                    <div class="stat-info">
+                        <h3>+10</h3>
+                        <p>Yıllık Tecrübe</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="bi bi-lightbulb stat-icon"></i>
+                    <div class="stat-info">
+                        <h3>+30</h3>
+                        <p>Tamamlanan Proje</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="bi bi-patch-check stat-icon"></i>
+                    <div class="stat-info">
+                        <h3>+100</h3>
+                        <p>Tamamlanan Etkinlik</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="bi bi-globe-americas stat-icon"></i>
+                    <div class="stat-info">
+                        <h3>14</h3>
+                        <p>Multitwinning Ortağı</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Marka ve Sosyal Medya -->
+                <div class="footer-brand">
+                    <img src="assets/images/JCI-Cankaya-1024x1024.png" alt="JCI Çankaya">
+                    <p>JCI Çankaya, gençleri geliştiren, onlara liderlik fırsatları sunan ve topluma olumlu katkı sağlayan global bir topluluğun parçasıdır.</p>
+                    <div class="social-links" style="margin-top: 10px;">
+                        <a href="https://www.instagram.com/jcicankaya/"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/jcicankaya/"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.youtube.com/@JCICankaya"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+    
+                <!-- Sütun 1: Kurumsal -->
+                <div class="footer-col">
+                    <h4>Kurumsal</h4>
+                    <ul>
+                        <li><a href="about.html">Hakkımızda</a></li>
+                        <li><a href="team.html">Yönetim Kurulu</a></li>
+                        <li><a href="contact.html">İletişim</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Sütun 2: Hızlı Erişim -->
+                <div class="footer-col">
+                    <h4>Hızlı Erişim</h4>
+                    <ul>
+                        <li><a href="project.html">Projeler</a></li>
+                        <li><a href="event.html">Etkinlikler</a></li>
+                        <li><a href="gallery.html">Galeri</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Sütun 3: JCI Network -->
+                <div class="footer-col">
+                    <h4>JCI Network</h4>
+                    <ul>
+                        <li><a href="https://jci.cc/" target="_blank">JCI International</a></li>
+                        <li><a href="https://jciturkiye.org/" target="_blank">JCI Türkiye</a></li>
+                        <li><a href="https://jcieurope.cc/" target="_blank">JCI Europe</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="footer-bottom">
+                <p>© 2026 JCI Çankaya. Tüm hakları saklıdır.</p>
+                <div class="footer-bottom-links">
+                    <a href="https://jciturkiye.org/wp-content/uploads/2024/05/jci-turkey-tuzuk-yeni-2.pdf" target="_blank">Dernek Tüzüğü</a>
+                    <a href="https://img1.wsimg.com/blobby/go/af3e46a1-828b-4f68-b863-e31cb10c7928/downloads/08d277f2-7892-47fa-85df-276d497ad77c/JCI-KVKK%20Aydinlatma%20Metni%2023012024.pdf?ver=1776180076676" target="_blank">KVK Aydınlatma Metni</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
